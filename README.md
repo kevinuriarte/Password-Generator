@@ -3,7 +3,7 @@ Password Generator
 
 This app is capable of generate a random password fitting your necessaries like the number of characters, upper case, lower case, and special characters.
 
-![The Password Generator application displays a black button to "Generate Password".](./Module3.png)
+![The Password Generator application displays a black button to "Generate Password".](./Assets/Module3.png)
 ## User Story
 
 ```
