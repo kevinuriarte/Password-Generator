@@ -1,0 +1,101 @@
+html,
+body,
+.wrapper {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: rgb(32, 194, 145);
+}
+
+.wrapper {
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  padding-top: 0px;
+  color: black;
+  margin-top: 15%;
+}
+
+.card {
+  background-color: whitesmoke;
+  border-radius: 30px;
+  border-width: 1px;
+  color: black;
+  font-size: 18px;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 30px 40px;
+  text-align: center;
+}
+
+.card-header::after {
+  content: " ";
+}
+
+
+.card-footer {
+  text-align: center;
+}
+
+.card-footer::after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+.button {
+  border: none;
+  background-color: black;
+  color: hsl(0, 0%, 100%);
+  display: inline-block;
+  font-size: 22px;
+  line-height: 22px;
+  margin: 16px 16px 16px 20px;
+  padding: 14px 34px;
+  text-align: center;
+  cursor: pointer;
+}
+
+
+.float-right {
+  float: right;
+}
+
+#password {
+  display: block;
+  width: 100%;
+  font-size: 1.2rem;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  resize: none;
+  overflow: hidden;
+  font-family: sans-serif;
+}
+
+@media (max-width: 690px) {
+  .button {
+    margin: 16px 0px 0px 0px;
+    padding: 10px 15px;
+  }
+
+  #password {
+    font-size: 10rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .button {
+    font-size: 0.8rem;
+  }
+}
