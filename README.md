@@ -1,10 +1,9 @@
-# 03 JavaScript: Password Generator
+Password Generator
 
-## Completed Mock-Up
 
 This app is capable of generate a random password fitting your necessaries like the number of characters, upper case, lower case, and special characters.
 
-![The Password Generator application displays a red button to "Generate Password".](./03-javascript-homework-demo.png)
+![The Password Generator application displays a black button to "Generate Password".](./Module3.png)
 ## User Story
 
 ```
